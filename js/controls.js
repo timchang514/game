@@ -2,7 +2,7 @@
   AFRAME.registerComponent('scene', {
     init: function() {
       let scene = document.querySelector('a-scene')
-      let camera = document.querySelector('#cameraWrapper')
+      let camera = document.querySelector('#test-box')
       const FWD = 0;
       const RIGHT = 1;
       const BACK = 2;

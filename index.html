@@ -7,9 +7,10 @@
   </head>
   <body>
     <a-scene scene physics="restitution: 0; friction: 0; gravity: -5">
-      <a-box dynamic-body material="opacity:0" id='cameraWrapper' position="0 0 0">
+      <a-box dynamic-body position="5 0 -10" id="test-box"></a-box>
+      <a-sphere static-body material="opacity:0" id='cameraWrapper' radius="0.1" position="0 0 0">
           <a-camera wasd-controls-enabled="false"></a-camera>
-      </a-box>
+      </a-sphere>
       <a-entity light="type: ambient; intensity: 0.5;"></a-entity>
       <a-entity light="type: directional;
                        castShadow: true;
